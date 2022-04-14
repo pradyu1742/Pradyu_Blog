@@ -1,0 +1,32 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Hi Myself Pradyu Creator of this website :) ,I'm from Chennai,India </p>
+        <p>i am a Student pursuing Engineering degree in Computer Science and i'm interested in Webdevelopment</p>
+        <p>Due to my Interest in Web Development , i have created this blog website as my starting project using Flask framework through python </p>
+        
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
